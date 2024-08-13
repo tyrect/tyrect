@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #001A4A;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.ant-menu{
+  .ant-menu-item{
+    display: flex !important;
+    align-items: center;
+    .ant-menu-item-icon{
+      width: 24px;
+      height: 24px;
+    }
+    .ant-menu-title-content{
+
+    }
+  }
+}
